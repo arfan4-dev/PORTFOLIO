@@ -1,0 +1,26 @@
+.card{
+    background-color: var(--color-white);
+
+padding: 1.5rem;
+border :2px solid transparent;
+border-radius:var(--border-radius-1);
+transition: var(--transition);
+
+}
+.card:hover{
+    background-color: transparent;
+    border-color: var(--color-white);
+    transform: translateY(-0.5rem);
+}
+
+.card.light{
+    background-color: var(--color-white);
+}
+
+.card.light{
+    background:transparent;
+    border-color:var(--color-light);
+}
+
+/* MEDIA QUERIES (phones) */
+
