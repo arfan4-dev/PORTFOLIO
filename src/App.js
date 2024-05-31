@@ -58,7 +58,6 @@ function App() {
       <About />
       <Services />
       <Portfolio />
-      {/* <Testimonial /> */}
       <FAQs />
       <Contact />
       <Footer />
